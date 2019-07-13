@@ -17,5 +17,5 @@ while fib(count)<4000000:
 	if fib(count)%2==0:
 		sum=sum+fib(count)
 		print('Fibonacci of '+str(count)+':'+str(fib(count)))
-	count=count+1
+	count+=1
 print('Total sum is: '+str(sum))
