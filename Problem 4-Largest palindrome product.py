@@ -12,7 +12,7 @@ largestNumber=0
 
 for i in range(100,999):
 	for j in range(100,999):
-		if isPal(i*j) and i*j>largestNumber:
+		if isPal(i*j) and i*j>largestNumber and i>=j:
 			largestNumber=i*j
 
 print(largestNumber)
