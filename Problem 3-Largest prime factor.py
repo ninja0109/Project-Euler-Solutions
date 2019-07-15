@@ -13,13 +13,12 @@
 # 	return True
 
 n=600851475143
-l=2
 i=2
 
 while i<n:
     if(n%i==0):
         n=int(n/i)
-        i=2
+        i=1
     i+=1
     
 print(n)
